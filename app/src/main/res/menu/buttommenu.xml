@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="HOME"
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        />
+    <item android:title="ARA"
+        android:id="@+id/search"
+        android:icon="@drawable/arama"/>
+    <item android:title="YÜKLE"
+        android:id="@+id/ekle"
+        android:icon="@drawable/gonderi"/>
+    <item android:title="KİŞİSEL"
+        android:id="@+id/person"
+        android:icon="@drawable/person"/>
+</menu>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/genel_arka_plan"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/sosyal"
+        />
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/layout_giris">
+        <EditText
+            android:id="@+id/name"
+            android:layout_marginTop="7dp"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:textSize="20sp"
+            android:ems="10"
+            android:hint="Adı"
+            android:inputType="textPersonName"
+            android:textStyle="bold"
+            android:layout_marginStart="35dp"
+            android:drawableLeft="@drawable/baseline_person_24"/>
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:id="@+id/sifre"
+            android:layout_marginTop="74dp"
+            android:layout_marginStart="-230dp"  android:textSize="20sp"
+            android:ems="10"
+            android:hint="Sifre"
+            android:inputType="textPassword"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/kilit"/>
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:id="@+id/email"
+            android:layout_marginStart="-230dp"
+            android:layout_marginTop="135dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:hint="Email"
+            android:inputType="text"
+            android:drawableLeft="@drawable/email"
+
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="595dp"
+        android:layout_marginStart="80dp"
+        android:text="Hemen hesap oluştur"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/kaydol"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="583dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:text="TIKLA"
+        android:textColor="@color/black"
+        android:backgroundTint="#EFC2EF"
+        android:layout_marginStart="255dp"
+        />
+    <Button
+        android:id="@+id/gir"
+        android:layout_width="132dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="640dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Giriş"
+        android:textColor="#FFD13D"
+        android:backgroundTint="#0E1E70"
+        android:layout_marginStart="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"/>
+
+
+
+
+
+
+</RelativeLayout>
